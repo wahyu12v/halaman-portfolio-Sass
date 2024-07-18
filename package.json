@@ -2,16 +2,16 @@
   "name": "halaman-portfolio",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-     "sass:build": "sass sass/main.scss css/styles.css",
+    "sass:watch": "sass sass/main.scss css/styles.css --watch",
     "serve": "http-server ."
   },
   "keywords": [],
-  "author": "YOUR_NAME <YOUR_EMAIL>",
+  "author": "Nur Rizki Adi Prasetyo <nrizki@dicoding.com>",
   "repository": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "http-server": "^14.1.1"
   }
 }
-
